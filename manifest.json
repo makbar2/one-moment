@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "One Moment",
+  "version": "1.0",
+  "description": "I'm ripping off One Sec but this is for browsers",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ],
+
+  "icons": {
+    "48": "icons/favicon.png"
+  }
+}
